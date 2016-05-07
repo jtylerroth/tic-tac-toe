@@ -8,14 +8,36 @@
 <body>
 
 
-<table id="tictactoeBoard">
-    <tr>
-        <td>x</td>
-        <td>x</td>
-        <td>o</td>
-    </tr>
-</table>
+<div id="wins">
+	<table>
+		<thead>
+		<tr>
+			<th>Player</th>
+			<th>X Started</th>
+			<th>O Started</th>
+			<th>Total Wins</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr class="player-x">
+			<td>X</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr class="player-o">
+			<td>O</td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+		</tbody>
+	</table>
+</div>
 
+
+
+<div id="tables" data-generate="5"></div>
 
 <script src="jquery-2.2.3.min.js"></script>
 <script src="app.js"></script>
